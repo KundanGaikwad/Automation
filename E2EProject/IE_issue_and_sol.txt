@@ -1,0 +1,42 @@
+Question : 
+i have tried to lunch Internet Explorer, It's opening the browser but not opening the google.com website can you please help me
+
+Solution:=
+
+To fix the issue by Enabling the 64-bit processes for Enhanced Protected Mode in IE11 options security section. 
+
+This is the steps I completed:
+
+For 64 bit WebDriver:
+
+Open IE
+
+Go to Internet Options → Advanced → Security
+
+Check ☑ Enable 64-bit processes for Enhanced Protected Mode
+
+Click Apply and OK
+
+For 32 bit WebDriver:
+
+Open IE
+
+Go to Internet Options → Advanced → Security
+
+Uncheck ☐ Enable 64-bit processes for Enhanced Protected Mode
+
+Click Apply and OK
+
+IE Security level settings:
+
+It needs to set same Security level in all zones. To do that follow the steps below
+
+Open IE
+
+Go to Tools -> Internet Options -> Security
+
+Set all zones (Internet, Local intranet, Trusted sites, Restricted sites) to the same protected mode, enabled or disabled should not matter.
+
+Finally, set Zoom level to 100% by right clicking on the gear located at the top right corner and enabling the status-bar.
+
+Default zoom level is now displayed at the lower right.

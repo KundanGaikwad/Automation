@@ -1,0 +1,11 @@
+1) Download jenkins.war from official website
+2) cd (give path where jenkins.war file is located)
+3) open cmd
+4) java -jar jenkins.war -httpPort=8080 hit this command in cmd.
+Note = You can use 9090 port as well if 8080 is not available.
+
+5) configure maven and java in jenkins (take senior support or devops
+
+Note = Whenever you change in the code, you have to update the maven project and go
+       through the project location. Copy the solution and paste into .jenkins folder.
+       

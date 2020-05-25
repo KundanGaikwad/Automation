@@ -1,0 +1,4 @@
+12:42:32.555 [main] INFO  resources.Base - Driver is initialzed
+12:42:39.990 [main] INFO  resources.Base - Navigated to Home Page
+12:42:43.717 [main] INFO  resources.Base - Open forgot password page
+12:42:49.258 [main] INFO  resources.Base - Login successfully

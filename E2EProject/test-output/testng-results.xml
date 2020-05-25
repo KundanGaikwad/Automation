@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67800" started-at="2020-05-25T12:30:39 IST" finished-at="2020-05-25T12:31:46 IST">
+    <groups>
+    </groups>
+    <test name="Test on Home Page" duration-ms="17507" started-at="2020-05-25T12:30:39 IST" finished-at="2020-05-25T12:30:56 IST">
+      <class name="Academy.E2EProject.Home">
+        <test-method status="PASS" signature="initializeAndOpenStore()[pri:0, instance:Academy.E2EProject.Home@3cebbb30]" name="initializeAndOpenStore" is-config="true" duration-ms="12878" started-at="2020-05-25T12:30:39 IST" finished-at="2020-05-25T12:30:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeAndOpenStore -->
+        <test-method status="PASS" signature="headerContactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProject.Home@3cebbb30]" name="headerContactUs" duration-ms="4169" started-at="2020-05-25T12:30:52 IST" data-provider="getData" finished-at="2020-05-25T12:30:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kundangaikwad5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[We got a problem]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerContactUs -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.E2EProject.Home@3cebbb30]" name="tearDown" is-config="true" duration-ms="378" started-at="2020-05-25T12:30:56 IST" finished-at="2020-05-25T12:30:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.E2EProject.Home -->
+    </test> <!-- Test on Home Page -->
+    <test name="Authentication" duration-ms="49656" started-at="2020-05-25T12:30:57 IST" finished-at="2020-05-25T12:31:46 IST">
+      <class name="Academy.E2EProject.Authentication">
+        <test-method status="PASS" signature="initializeAndOpenStore()[pri:0, instance:Academy.E2EProject.Authentication@52b1beb6]" name="initializeAndOpenStore" is-config="true" duration-ms="18028" started-at="2020-05-25T12:30:57 IST" finished-at="2020-05-25T12:31:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeAndOpenStore -->
+        <test-method status="FAIL" signature="forgotPassword()[pri:0, instance:Academy.E2EProject.Authentication@52b1beb6]" name="forgotPassword" duration-ms="23196" started-at="2020-05-25T12:31:15 IST" finished-at="2020-05-25T12:31:38 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"h1[class='page-subheading']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LPT0052', ip: '192.168.43.131', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\oeadmin\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49818}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0a98e3d3046fae6c8b5e91553c18f90c
+*** Element info: {Using=css selector, value=h1[class='page-subheading']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"h1[class='page-subheading']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LPT0052', ip: '192.168.43.131', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\oeadmin\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49818}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0a98e3d3046fae6c8b5e91553c18f90c
+*** Element info: {Using=css selector, value=h1[class='page-subheading']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pageObjects.ForgotPasswordPage.getTitle(ForgotPasswordPage.java:20)
+at Academy.E2EProject.Authentication.forgotPassword(Authentication.java:80)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProject.Authentication@52b1beb6]" name="login" duration-ms="7959" started-at="2020-05-25T12:31:38 IST" data-provider="getData" finished-at="2020-05-25T12:31:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kundangaikwad5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass@123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Academy.E2EProject.Authentication -->
+    </test> <!-- Authentication -->
+  </suite> <!-- Suite -->
+</testng-results>

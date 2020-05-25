@@ -1,0 +1,7 @@
+pageObjects\ForgotPasswordPage.class
+pageObjects\LandingPage.class
+Academy\E2EProject\App.class
+pageObjects\LoginPage.class
+resources\Base.class
+resources\ExtendReporterNG.class
+pageObjects\ContactUsPage.class
